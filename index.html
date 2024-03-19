@@ -8,15 +8,15 @@
 </head>
 <body>
     <header>
+        <div class="contentWrapper">
         <nav>
+            <nav id="utilityMenu">
             <ul>
-                <li class="socialIcon"><a href="#"><img src="./assets/Facebook-icon-1.png"> </a></li>
-                <li class="socialIcon"><a href="#"><img src="./assets/Instagram-Logo.png"> </a></li>
-                <li class="socialIcon"><a href="#"><img src="./assets/Twitter-Logо.png"> </a></li>
-                <li><a href="#" class="active">Login</a></li>
-                <li><a href="#">My Cart</a></li>
+                <li class="acctNav"><a href="#" class="active">Login</a></li>
+                <li class="acctNav"><a href="#">My Cart</a></li>
                 <li><input type="search" id="search" placeholder="Search"></li>
             </ul>
+            </nav>
         </nav>
         <h1>Shredder's</h1>
         <h2>Forge</h2>
@@ -26,7 +26,9 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+    </div>
     </header>
+    <div class="contentWrapper">  
     <section id="sidebar">
         <h1>Where the Instruments of Metal Gods are Forged!</h1>
         <p>
@@ -45,18 +47,55 @@
             </ul>
         </p>
     </section>
-    <section id="main">
+    </div>
+    <section id="main" class="contentWrapper">
         <h1>Current Deal!</h1>
         <div class="deal">
             <img src="./assets/warlock.png" id="warlockdeal" alt="Warlock Guitar"  />
         </div>
     </section>
     <section id="catalogue">
-
+        <h1>
+            Current Cursed Offerings!
+        </h1>
+        <div class="panel">
+            <img src="./assets/esparrow.jpg" class="guitarpic" alt="Guitar" />
+            <h2>ESP E-II Arrow-7 Baby Metal</h2>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/solarcanibalismo.png" class="guitarpic" alt="Guitar" />
+            <h2>Solar V1.8C Canibalismo</h2>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/ibanezxiphos.png" class="guitarpic" alt="Guitar" />
+            <h2>Ibanez Xiphos</h2>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/especlipse.png" class="guitarpic" alt="Guitar" />
+            <h2>ESP E-II Eclipse Vintage Black</h2>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/jacksonwarrior.jpg" class="guitarpic" alt="Guitar" />
+            <h2>Jackson Warrior WR7</h2>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/kieselvader.png" class="guitarpic" alt="Guitar" />
+            <h2>Kiesel Vader</h2>
+            <button>Order</button>
+        </div>
     </section>
     
+    <div class="clear"></div>
     <footer>
-
+        <span>&copy;2024</span>
+        <ul id="menuFooter">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
     </footer>
     
 </body>
