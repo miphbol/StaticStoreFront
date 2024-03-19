@@ -113,9 +113,9 @@ section#sidebar {
     position: relative;
     display: block;
     background-color: #ddd4d4;
-    margin: 1.5em 0 3.0em 1.5em;
-    padding: 2.5em 10em 10em 1.7em;
-    border-left: #9c1515 solid 5px;
+    margin: 1.0em 1.0em 1.0em 1.0em;
+    padding: 2.5em 8em 8em 1.7em;
+    border: #9c1515 solid 5px;
     font-size: 1.0em;
     }
 
@@ -128,6 +128,8 @@ section #main {
     border-radius: 2em;
     box-shadow: 1px 1px 5px #777;
     }
+
+    
 section div.panel{
     float: left;
     position: relative;
@@ -138,7 +140,7 @@ section div.panel{
     border: #ac1c1c solid 1px;
     border-radius: 0.6em;
     }
-    section div.panel img.cheeseType {
+    section div.panel img.guitarpic {
     width: 100%;
     }
 
