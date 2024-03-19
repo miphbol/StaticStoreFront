@@ -1,6 +1,6 @@
 
 body {
-    font-size: 67.5%;
+    font-size: 70.5%;
     font-family: Tahoma, Geneva, sans-serif;
     background: #39150C url(./assets/background.jpg) no-repeat fixed top center;
     padding: 0;
@@ -36,7 +36,7 @@ p {
 }
 
 a, a:visited {
-    color: #C64322;
+    color: #e20808;
 }
 a:hover {
     color: #333;
@@ -80,10 +80,9 @@ nav {
     margin: 1.0em 0 ;
 }
 nav ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
+
 nav li {
     display: inline-block;
     margin: 0;
@@ -93,11 +92,11 @@ nav#utilityMenu {
     float: right;
     margin: -1.5em 0 0 0;
     padding: 0.35em;
-    background-color: rgba(133, 131, 131, 0.8);
     height: 1.3em;
 }
+
 nav#utilityMenu li {
-    padding: 0 0.35em 0 0.5em;
+    padding: 0 0.45em 0 0.55em;
     vertical-align: middle;    
 }
 
@@ -109,7 +108,7 @@ nav#utilityMenu ul li.acctNav a:hover {
 
 section#sidebar {
     width: 238px;
-    float: right;
+    float: left;
     position: relative;
     display: block;
     background-color: #ddd4d4;
@@ -131,13 +130,13 @@ section #main {
 
     
 section div.panel{
-    float: left;
+    float: inline-start;
     position: relative;
     width: 250px;
     margin: 0 0.5em 2.0em 0.5em;
     padding: 1.0em;
     background-color: #000000;
-    border: #ac1c1c solid 1px;
+    border: #ac1c1c solid 3px;
     border-radius: 0.6em;
     }
     section div.panel img.guitarpic {
@@ -163,16 +162,13 @@ footer ul li {
     padding: 0 0.7em 0 0;
     margin: 0;
 }
-footer ul li::before {
-    content: "| ";
-    padding-right: 0.7em;
-}
+
 footer a, footer a:visited {
-    color: #fff;
+    color: #ff0000;
     text-decoration: none;
 }
 footer a:hover {
-    color: #fff;
+    color: #f3740b;
     text-decoration: underline;
 }
 
